@@ -1,1 +1,3 @@
-<img src="spiderman.jpeg" alt="Spiderman" width="200">
+<a href="downloads/spiderman.jpeg">
+            <img src="downloads/spiderman.jpeg" width="300" alt="Spiderman">
+        </a>
