@@ -5,55 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Project 6: Superhero Gallery</title>
 </head>
 
 <body>
-    <h1>Superhero Gallery</h2>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Alias</th>
-                <th>Image</th>
-                <th>Superpower</th>
-                <th>Weakness</th>
-            </tr>
-            <tr>
-                <td>Spiderman</td>
-                <td><a href="https://zach-montgomery.github.io/bacs200/index.html">Index</a></td>
-                <td><a href="https://shrinking-world.com/course/bacs200/project/01" target="instruction">Project 1</a>
-                </td>
-                <td><a href="https://validator.w3.org/">Validator</a></td>
-            </tr>
-            <tr>
-                <td>Project #2</td>
-                <td><a href="https://zach-montgomery.github.io/bacs200/inspire.html">Inspire Me Page</a></td>
-                <td><a href="https://shrinking-world.com/course/bacs200/project/02" target="instruction">Project 2</a>
-                </td>
-                <td><a href="https://validator.w3.org/">Validator</a></td>
-            </tr>
-            <tr>
-                <td>Project #3</td>
-                <td><a href="https://zach-montgomery.github.io/bacs200/amuse.html">Amuse Me Page</a></td>
-                <td><a href="https://shrinking-world.com/course/bacs200/project/03" target="instruction">Project 3</a>
-                </td>
-                <td><a href="https://validator.w3.org/">Validator</a></td>
-            </tr>
-            <tr>
-                <td>Project #4</td>
-                <td><a href="https://zach-montgomery.github.io/bacs200/educate.html">Educate Me Page</a></td>
-                <td><a href="https://shrinking-world.com/course/bacs200/project/04" target="instruction">Project 4</a>
-                </td>
-                <td><a href="https://validator.w3.org/">Validator</a></td>
-            </tr>
-            <tr>
-                <td>Project #5</td>
-                <td><a href="https://zach-montgomery.github.io/bacs200/test.html">Test Me Page</a></td>
-                <td><a href="https://shrinking-world.com/course/bacs200/project/05" target="instruction">Project 5</a>
-                </td>
-                <td><a href="https://validator.w3.org/">Validator</a></td>
-            </tr>
-        </table>
+    <nav class="navbar navbar-expand-sm bg-dark text-light">
+
+        <div class="container">
+
+            <a class="navbar-brand text-light" href="index.html">Home</a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://github.com/Zach-Montgomery/Zach-Montgomery.github.io"
+                        target="new">Repo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="test.html" target="new">Testing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://www.unco.edu/" target="new">UNC</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid p-5 bg-info text-white text-center">
+        <h1>Superhero Gallery</h1>
+    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Alias</th>
+            <th>Image</th>
+            <th>Abilities/ strengths</th>
+            <th>Weaknesses</th>
+        </tr>
+        <tr>
+            <td>Peter Parker</td>
+            <td>Spiderman</td>
+            <td><a
+                    href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spider-man-movies-in-order-index-1631199371.jpeg?crop=0.565xw:1.00xh;0.435xw,0&resize=640:*"><img
+                        src="images/spiderman.jpeg" alt="Link to original image of Spiderman" width="200"></a></td>
+            <td>Heightened speed, dexterity, senses, and strength as well as the ability to shoot webs and wallcrawl
+            </td>
+            <td>High frequencies, gas attacks, Anti-Venom</td>
+        </tr>
+        <tr>
+            <td>Clark Kent</td>
+            <td>Superman</td>
+            <td><a
+                    href="https://cdn.theatlantic.com/thumbor/cTP7DsiUyI81zFg8c-FDnIoCBhA=/540x0:2340x1800/540x540/media/img/mt/2016/01/superman/original.jpg"><img
+                        src="images/superman.jpg" alt="Link to original image of Superman" width="200"></a></td>
+            <td>Flight, superhuman strength, and invulnerability</td>
+            <td>Kyrptonite and red sun radiation</td>
+        </tr>
+        <tr>
+            <td>Wade Wilson</td>
+            <td>Deadpool</td>
+            <td><a
+                    href="https://www.gannett-cdn.com/-mm-/32b0614a1fd095bbc49fcea15a4ae90ee6718e00/c=0-0-2999-1695/local/-/media/2016/02/11/USATODAY/USATODAY/635908058668140572-AP-FILM-REVIEW-DEADPOOL-79512492.JPG"><img
+                        src="images/deadpool.jpg" alt="Link to original image of Deadpool" width="200"></a>
+            </td>
+            <td>Superhuman strength, agility, and stamina as well as the ability to self-regenerate</td>
+            <td>Temper/ irrationality, gamma radiation, Muramusa blade</td>
+        </tr>
+        <tr>
+            <td>Bruce Banner</td>
+            <td>The Hulk</td>
+            <td><a
+                    href="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F03%2Fthe-hulk-2000.jpg"><img
+                        src="images/hulk.jpg" alt="Link to original image of the Hulk" width="200"></a>
+            </td>
+            <td>Incredible amounts of strength and agility, plus his powers increase the angrier he gets</td>
+            <td>Adamantium, ego, gamma bombs</td>
+        </tr>
+        <tr>
+            <td>Bruce Wayne</td>
+            <td>Batman</td>
+            <td><a
+                    href="https://cdn1.epicgames.com/undefined/offer/batman-arkham-asylum_promo-1567x917-f1248a17909e224f91845b223542306a.jpg"><img
+                        src="images/batman.jpg" alt="Link to original image of the Batman" width="200"></a>
+            </td>
+            <td>Genius intellect, master detective, master weapons specialist, and incredible amounts of wealth</td>
+            <td>Reliance on technology, psychological trauma, and unwillingness to ever kill foes</td>
+        </tr>
+    </table>
+    <footer>
+        <p><a href="https://github.com/Zach-Montgomery/Zach-Montgomery.github.io" target="new">&copy; Copyright 2021 -
+                Zach-Montgomery BACS 200 Website</a></p>
+    </footer>
 </body>
 
 </html>

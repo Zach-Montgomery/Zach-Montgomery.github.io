@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+aside {
+    background-color: silver;
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    border: tan;
+    width: 30%;
+    font-family: sans-serif;
+    
+}
+
+aside li {
+    padding: 0px;
+    margin: 1px 3em;
+    
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+}
+main {
+    background-color: white;
+}
+
+.page {
+    
+    box-shadow: 2px 2px 5px grey;
+    background-color: #eeeeee;
+    border: 3px solid #0E3D65;
+    border-radius: 10px;
+    width: 50%;
+    float: left;
+}
